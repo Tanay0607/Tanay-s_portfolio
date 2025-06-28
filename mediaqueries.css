@@ -1,0 +1,202 @@
+@media screen and (max-width:1400px) {
+  
+
+    
+    
+    .aboutsection{
+        display: none;
+    }
+
+    .aboutsection2{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutsection2 .boxes{
+        flex-direction: column;
+        
+    }
+
+    .aboutsection2 #abouttext{
+        text-align: center;
+        margin-top: 1rem;
+        max-width: 800px;
+        font-size: 1.2rem;
+    }
+
+    .projectsection{
+        display: none;
+    }
+
+    .projectsection2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 4rem 0;
+    }
+
+    .cardsection2 .card{
+        width: 816px;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    #navbar{
+        display: none;
+    }
+    #hamburgernav{
+        display: flex;
+        margin-bottom: 5rem
+        
+    }
+    .homesection{
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .aboutsection2{
+        margin-bottom: 4rem;
+    }
+
+    .aboutcontent{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #me{
+        font-size: 2.5rem;
+    }
+
+    #aboutprofile{
+        height: 250px;
+        width: 250px;
+    }
+
+    .aboutsection2 .boxes{
+        flex-direction: row;
+
+    }
+
+    .aboutsection2 .box{
+        width: 250px;
+    }
+
+    .aboutsection2 #abouttext{
+        max-width: 516px;
+        font-size: 1rem;
+    }
+
+    .projectsection2{
+        display: none;
+    }
+
+    .projectsection{
+        display: flex;
+        
+    }
+
+
+    .projectsection .cardcontainer {
+        flex-direction: column;
+    }
+    #profilepic{
+        width: 300px;
+        height: 300px;
+    }
+
+    #projecttext{
+        font-size: 2.5rem;
+    }
+
+    .card{
+        width: 350px;
+        height: 400px;
+    }
+    
+    #contact{
+        font-size: 2rem;
+    }
+
+    .footernav{
+        gap: 1rem;
+        font-size: 1.1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .aboutsection2 .boxes{
+        flex-direction: column;
+        
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    #profilepic{
+        width: 250px;
+        height: 250px;
+    }
+
+    #name{
+        font-size: 2rem;
+
+    }
+
+    .ibutton{
+        font-size: .8rem;
+        width: 6rem;
+    }
+
+    .aboutsection2 #me{
+        font-size: 2rem;
+    }
+
+    #aboutprofile{
+        height: 200px;
+        width: 200px;
+    }
+
+    .contactbox{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectsection .card{
+        height: 300px;
+        width: 250px;
+    }
+
+    .projectsection #projecttext{
+        font-size: 2rem;
+    }
+
+    #contact{
+        font-size: 1.5rem;
+    }
+
+    .aboutsection2 #abouttext{
+        max-width: 250px;
+        font-size: .8rem;
+    }
+
+    .aboutsection2 .lang, .btech{
+        font-size: .8rem;
+    }
+
+    .aboutsection2 .sk{
+        font-size: 1rem;
+    }
+
+    #footer{
+        font-size: .8rem;
+    }
+}

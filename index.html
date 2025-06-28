@@ -13,9 +13,25 @@
             <div class="logo">Tanay Singhvi</div>
             <div class="navlinks">
                 <a href="#page1" class="navlinktext">Home</a>
-                <a href="#aboutsection" class="navlinktext">About</a>
-                <a href="#projectsection" class="navlinktext">Projects</a>
+                <a href="#about" class="navlinktext">About</a>
+                <a href="#project" class="navlinktext">Projects</a>
                 <a href="#contactsection" class="navlinktext">Contact</a>
+            </div>
+        </nav>
+        <nav id="hamburgernav">
+            <div class="logo">Tanay Singhvi</div>
+            <div class="hamburgermenu">
+                <div class="hamburgericon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menulinks">
+                    <a href="#page1" class="navlinktext" onclick="toggleMenu()">Home</a>
+                    <a href="#about" class="navlinktext" onclick="toggleMenu()">About</a>
+                    <a href="#project" class="navlinktext" onclick="toggleMenu()">Projects</a>
+                    <a href="#contactsection" class="navlinktext" onclick="toggleMenu()">Contact</a>
+                </div>
             </div>
         </nav>
 
@@ -33,8 +49,8 @@
             </div>
         
             <div class="introbuttons">
-                <a href="#" id="cv" class="ibutton">Download CV</a>
-                <a href="#" id="ci" class="ibutton">Contact Info</a>
+                <a href="./assets/resume-example.pdf" id="cv" class="ibutton">Download CV</a>
+                <a href="#contactsection" id="ci" class="ibutton">Contact Info</a>
             </div>
             <div class="intrologobuttons">
                 <a href="#">
@@ -49,9 +65,10 @@
         </div>
     </div>
     </div>
+    
 
-
-    <div class="aboutsection" id="aboutsection">
+    <div class="about" id="about">
+            <div class="aboutsection" id="aboutsection">
         <div class="aboutheading">
             <p id="get">Get To Know More</p>
             <p id="me">About Me</p>
@@ -82,11 +99,45 @@
         </div>
 
     </div>
+    <div class="aboutsection2" id="aboutsection2">
+        <div class="aboutheading">
+            <p id="get">Get To Know More</p>
+            <p id="me">About Me</p>
+        </div>
+        <div class="aboutcontent">
+            <img src="./assets/WhatsApp Image 2025-06-26 at 18.11.56_137afa58.jpg" alt="" id="aboutprofile">
+            <div class="maincontent">
+                <div class="boxes">
+                    <div class="box" id="box1">
+                        <img src="./assets/experience.png" alt="" class="badges">
+                        <p class="sk">Skills</p>
+                        <ul class="lang">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="box" id="box2">
+                        <img src="./assets/education.png" alt="" class="badges">
+                        <p class="sk">Education</p>
+                        <p class="btech">2nd Year B.Tech student</p>
+                        <p class="btech">LNMIIT Jaipur</p>
 
-    <div class="projectsection" id="projectsection">
+                    </div>
+                </div>
+            </div>
+        </div>
+                <p id="abouttext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto error eius dolorum, facilis officiis qui quod quisquam dicta nemo provident. Earum minus est dolore necessitatibus officiis vero dignissimos voluptatem provident maxime, nostrum distinctio sequi quo ullam nam aspernatur dolor ducimus adipisci odio praesentium harum? Voluptatum delectus illum aperiam soluta cumque?</p>
+        
+
+    </div>
+    </div>
+
+    <div class="project" id="project">
+            <div class="projectsection" id="projectsection">
         <div class="projectheading">
             <p id="browse">Browse My Recent</p>
-            <p id="project">Projects</p>
+            <p id="projecttext">Projects</p>
         </div>
         <div class="cardsection">
             <div class="cardcontainer">
@@ -117,6 +168,46 @@
             </div>
         </div>
     </div>
+
+        <div class="projectsection2" id="projectsection2">
+        <div class="projectheading">
+            <p id="browse">Browse My Recent</p>
+            <p id="projecttext">Projects</p>
+        </div>
+        <div class="cardsection1">
+            <div class="cardcontainer">
+                <div class="card">
+                <img src="./assets/project-1.png" alt="" class="cardimg">
+                <p class="ph">Project One</p>
+                <div class="cardbuttons">
+                    <a href="#" class="cb">Github</a>
+                    <a href="#" class="cb">Live Demo</a>
+                </div>
+                </div>
+                <div class="card">
+                <img src="./assets/project-2.png" alt="" class="cardimg">
+                <p class="ph">Project Two</p>
+                <div class="cardbuttons">
+                    <a href="#" class="cb">Github</a>
+                    <a href="#" class="cb">Live Demo</a>
+                </div>
+                </div>
+                
+            </div>
+            <div class="cardsection2">
+                <div class="card">
+                <img src="./assets/project-3.png" alt="" class="cardimg">
+                <p class="ph">Project Three</p>
+                <div class="cardbuttons">
+                    <a href="#" class="cb">Github</a>
+                    <a href="#" class="cb">Live Demo</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
            
     <div class="contactsection" id="contactsection">
         <div class="contactheading">
@@ -137,11 +228,11 @@
         </div>
         <div class="footernav">
             <a href="#page1" class="navlinktext">Home</a>
-            <a href="#aboutsection" class="navlinktext">About</a>
-            <a href="#projectsection" class="navlinktext">Projects</a>
+            <a href="#about" class="navlinktext">About</a>
+            <a href="#project" class="navlinktext">Projects</a>
             <a href="#contactsection" class="navlinktext">Contact</a>
         </div>
-        <p id="footer">Copyright © 2023 Tanay Singhvi. All Rights Reserved.</p>
+        <p id="footer">Copyright © 2025 Tanay Singhvi. All Rights Reserved.</p>
     </div>
             
     <script src="script.js"></script>
