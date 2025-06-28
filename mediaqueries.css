@@ -136,7 +136,9 @@
         flex-direction: column;
         
     }
-
+    .homesection{
+        margin-top: none;
+    }
     .logo{
         font-size: 1.5rem;
     }
